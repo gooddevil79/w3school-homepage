@@ -143,4 +143,27 @@
         margin-right: auto;
         margin-left: 0;
     }
+    .template-container a img{
+        width: 300px;
+        margin-left: auto;
+    }
+    .footer-shop-btn a{
+        width: 90%;
+    }
+    .footer-social{
+      text-align: center;
+      margin-left: 26px;
+    }
+    .header-right .log-in-res{
+        padding: 0px !;
+    }
+    .header-right .options{
+        gap: 0px;
+        margin-right: 0;
+        padding: 0;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    
 }
