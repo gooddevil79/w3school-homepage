@@ -1,0 +1,120 @@
+
+/* how to section */
+.how-to-section{
+    padding-bottom: 50px;
+}
+.how-to-section-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.how-section-text{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.how-section-text h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+.how-section-text p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.section-box-container{
+    display: flex;
+}
+
+.how-section-box{
+    display: flex;
+    border: 5px solid darkgray;
+    height: 300px;
+    overflow-y: scroll;
+    font-family: sans-serif;
+    position: relative;
+}
+.how-section-box2{
+    margin-left: 10px;
+}
+.how-section-box1{
+    margin-right: 10px;
+}
+.how-section-text-main{
+    margin-left: 20px;
+}
+.how-section-text-main p{
+    display: block;
+    font-size: 18px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.how-section-text-main h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.section-menu{
+        height: 100%;
+    width: 120px;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding: 15px;
+    
+}
+.section-menu-box1{
+    background-color: #000;
+}
+.section-menu-box1 a{
+    padding: 10px;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+.section-menu-box2{
+    width: 103px;
+    position: sticky;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    padding: 8px 0;
+    height: max-content;
+}
+.section-menu-box2 a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2196F3;
+    display: block;
+}
+.how-section-btn{
+    background-color: #282A35;
+    color: white;
+    margin: 10px auto;
+    display: block;
+    width: 800px;
+    text-align: center;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.how-section-btn:hover{
+    background-color: #000;
+}

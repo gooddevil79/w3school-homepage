@@ -1,0 +1,29 @@
+
+/* color picker */
+.color-picker{
+    background-color: #F3ECEA;
+    text-align: center;
+}
+.color-picker-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+.color-picker-text{
+    font-family: sans-serif;
+    margin: 15px;
+}
+.color-picker-text h1{
+    font-family: sans-serif;
+    font-size: 65px;
+}
+.color-picker-text p{
+    font-family: sans-serif;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.color-picker-img a img:hover{
+    opacity: 0.7;
+
+}

@@ -1,0 +1,66 @@
+
+/* mini box courses */
+
+.mini-courses-container{
+    background-color: #282A35;
+}
+.mini-courses-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px 80px;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.mini-box-course{
+    padding: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    opacity: 0.9;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mini-box-course:hover{
+    opacity: 1;
+    filter: saturate(130%);
+}
+.mini-box-course h2{
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+/* mini bo ordering */
+
+.machinel-mini-box{
+    grid-column: 1/3;
+}
+.ai-mini-box{
+    grid-column: 3/-1;
+}
+.Data-Science-mini-box{
+    grid-column: 3/-1;
+}
+/* color */
+.yellow-bg{
+    background-color: #FFF4A3;
+}
+.smoke-white-bg{
+    background-color: #F3ECEA;
+}
+.pink-bg{
+    background-color: #FFC0C7;
+}
+.blue-white-bg{
+    background-color: #d9eee1;
+}
+.blue-light-bg{
+    background-color: #96D4D4;
+}
+.green-bg{
+    background-color: #04aa6d;
+    color: #fff;
+}

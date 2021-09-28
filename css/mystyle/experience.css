@@ -1,0 +1,57 @@
+
+
+/* exercises */
+.exercises{
+    padding-top: 64px;
+    padding-bottom: 80px !important;
+    background-color: #222632;
+    background: #222632 url("/img/w3codes.png") no-repeat fixed center;
+   
+}
+.eq-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.exercies-quiz-box-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+
+.exercies-quiz-text h4{
+    color: #fff;
+    font-size: 45px;
+font-weight: 700;
+font-family: sans-serif;
+padding-top: 30px;
+}
+.exercies-quiz-text p{
+    color: #fff;
+    font-size: 30px;
+font-weight: 700;
+font-family: sans-serif;
+padding-top: 30px;
+margin-bottom: 30px;
+}
+.eq-btn{
+    padding: 90px 50px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    margin:10px  auto;
+}
+.exercies-btn{
+    background-color: #04aa6d;
+    font-size: 35px;
+    width: 87%;
+    opacity: 0.97;
+    color: #fff;
+}
+.quizzes-btn{
+    background-color: #FFF4A3;
+    font-size: 35px;
+    width: 87%;
+    opacity: 0.97;
+    color: #000;
+}

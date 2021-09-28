@@ -1,0 +1,41 @@
+
+/* code game */
+.code-game-container{
+    background-color: #96D4D4;
+    text-align: center;
+    padding: 50px;
+}
+.code-game-text h2{
+    font-family: 'Freckle Face', cursive;
+    font-size: 48px;
+    font-weight: 100;
+}
+.code-game-text p{
+    font-size: 32px;
+    font-family: 'Freckle Face', cursive;
+}
+.code-game-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.play-game-btn{
+    font-family: sans-serif;
+    background-color: #282A35;
+    color: #ffffff;
+    font-size: 18px;
+    margin: auto;
+    padding: 8px 16px;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+.code-game-links img:hover{
+    opacity: 0.6;
+}
+.play-game-btn:hover{
+    background-color: #000;
+}

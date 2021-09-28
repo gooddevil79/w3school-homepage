@@ -1,0 +1,19 @@
+
+/* code style */
+.sign{
+    color: blue;
+}
+.important-word{
+    color: red;
+}
+.white-bg-reference-btn{
+    background-color: #282A35 !important;
+    color: #fff !important;
+}
+.white-bg-reference-btn:hover{
+    background-color: #000 !important;
+}
+
+
+
+/* code style end */

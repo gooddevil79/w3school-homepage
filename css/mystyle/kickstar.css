@@ -1,0 +1,41 @@
+
+
+/* Kickstart */
+
+.Kickstart-container{
+    background-color: #282A35;
+}
+.Kickstart-child{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 20px;
+    position: relative;
+}
+.Kickstart-child h2{
+    font-size: 62px;
+margin-top: 1em;
+margin-bottom: 1em;
+font-family: 'Source Sans Pro', sans-serif;
+color: #ffc0c7;
+}
+.Kickstart-child p{
+    font-size: 40px;
+margin-bottom: 1em;
+font-family: 'Source Sans Pro', sans-serif;
+color: #ffc0c7;
+}
+.get-start-btn{
+        background-color: #04aa6d;
+        color: white !important;
+        padding: 20px 40px !important;
+        display: inline-block;
+        border-radius: 50px;
+        font-size: 20px;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.Kickstart-child img{
+    position: absolute;
+    width: 300px;
+    top: 60%;
+    right: 5%;
+}

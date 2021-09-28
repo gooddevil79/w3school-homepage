@@ -1,0 +1,129 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+}
+.header-right{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    align-items: center;
+}
+/* site info */
+.site-info{
+    margin-left: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.site-info img{
+    width: 60px;
+    height: 60px;
+    opacity: 0.8;
+    padding: 10px;
+    text-align: center;
+}
+.site-info:hover > img{
+    opacity: 1;
+}
+
+/* site info end */
+
+/* navigation */
+.header .desktop-menu{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: left;
+}
+.header .desktop-menu li a{
+    display: block;
+    padding: 25px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.desktop-menu li a:hover{
+    background-color: #04aa6d;
+    color: #fff;
+}
+/* mobile menu res */
+.mobile-menu{
+    display: none;
+}
+.header .mobile-menu li a{
+    display: block;
+    padding: 25px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.mobile-menu li a:hover{
+    background-color: #04aa6d;
+    color: #fff;
+}
+
+/* navigation end */
+
+/* option */
+.options{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+    justify-content: right;
+    margin-right: 15px;
+}
+
+.options i{
+    cursor: pointer;
+}
+.options i:hover{
+    color: #04aa6d;
+}
+
+.menu{
+    display: flex;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+.menu li{
+    text-align: center;
+}
+.menu li a{
+    color: #000;
+    display: block;
+    border-radius: 50px;
+    padding: 10px 16px;
+
+
+}
+
+.menu-li-selected a{
+    background-color: #04aa6d;
+    color: white !important;
+    padding: 10px 40px !important;
+}
+.menu-li-selected:hover a{
+    background-color: #059862;
+}
+.menu-li-hoverd:hover a{
+    color: #fff;
+    background-color: #04aa6d;
+}
+
+
+
+/* menu end 
+
+HEADER END
+*/

@@ -1,0 +1,46 @@
+
+/* template */
+
+.template{
+    background-color: #E7E9EB ;
+    padding: 100px;
+}
+.template-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+.template-container a img{
+   width: 100%;
+}
+
+.template-container h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.template-container p{
+    font-size: 20px;
+    margin: 10px 0px;
+}
+.template-container a{
+    margin-top: 30px;
+
+}
+.template-btn{
+    background-color: #282A35;
+    color: #fff;
+    display: block;
+    padding: 15px 16px;
+    border-radius: 50px;
+    min-width: 70%;
+    white-space: nowrap;
+
+}
+.template-btn:hover{
+    background-color: #000;
+}
