@@ -1,5 +1,5 @@
 # W3school website's Homepage
-### Used Lnaguage & Tools :
+### Used Language & Tools :
 - Html5
 - Css3
 - Grid system
