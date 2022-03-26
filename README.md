@@ -1,14 +1,3 @@
 # W3school website's Homepage
-### Used Language & Tools :
-- Html5
-- Css3
-- Grid system
-- Flexbox
-### Utilities :
-- Responsive
----
-## Project Environment
-<p align="center">
-  <kbd>
-   <img  src="https://github.com/gooddevil79/w3school-homepage/blob/master/full-webpage.png" width="80%" style="border:2pxsolid;"></kbd>
-</p>
+As you know, responsive web design is one of the important concepts in Front-end , so i decided to create W3School web page template and improve my RWD using Grid system in css and Flexbox in practice.
+you can check Demo by <a href='https://w3school-gooddevil79.netlify.app/'>Clicking Here</a>
